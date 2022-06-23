@@ -6,3 +6,18 @@ C- ¿Qué color de fondo tiene su página en el MASTER?
 	Tiene color azul
 D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
 	El de Beta
+E- ¿Algún integrante tuvo problemas al hacer el push?
+Si, BETA (no tenemos GAMMA)
+F- ¿Qué problemas surgieron?
+Al intentar hacer el push le tiraba error porque no
+tenia la ultima version de la rama TESTING
+G- ¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución
+adoptada?
+La mejor solucion es hacer un pull, resolver los conflictos en el IDE, comitear y pushear
+H- ¿Qué sucede si cada uno utiliza el push -f?
+un push -f (--force) ignora los conflictos y lleva la rama al estado en que la estoy pusheando,
+de esta manera si BETA hubiese hecho push -f hubiese pisado el commit de ALFA
+I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20
+en DESARROLLO ?
+BETA deberia hacer un pull y aceptar los cambios de ALFA + el suyo, luego GAMMA hace lo mismo,
+respetando los cambios de ALFA y BETA y agregando el suyo 
